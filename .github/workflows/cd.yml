@@ -31,6 +31,7 @@ jobs:
       run: docker build -t manjuverma11/sample-node-app:latest
 
     - name: "Build Successfull"
+    
       run: echo "docker Build successfully!"
 
    
