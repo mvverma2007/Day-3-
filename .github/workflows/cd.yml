@@ -30,7 +30,8 @@ jobs:
     - name: "Run Build Command"
       run: docker build -t manjuverma11/sample-node-app:latest
 
-    - name: "Build Successfull"
+    - name: "Build Successfulllllllll"
+
       run: echo "docker Build successfully!"
 
    
