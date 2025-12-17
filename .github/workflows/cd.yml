@@ -28,7 +28,7 @@ jobs:
       run: npm install
 
     - name: "Run Build Command"
-      run: docker build -t manjuverma11/sample-node-app:latest
+      run: docker build -t manjuverma11/sample-node-app:latest .
 
     - name: "Build Successfulllllllll"
 
