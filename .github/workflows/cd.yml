@@ -35,7 +35,7 @@ jobs:
       run: echo "docker Build successfully!"
 
     - name: "Login to Dockercredentials"
-      run: echo "dckr_pat_1MIgoXuly_LXm-A_RoYWF3nK7H4" | docker login -u "manjuverma11" --password-stdin
+      run: echo "${{ secrets.DOCKERHUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
 
     - name: "Login successfull"
       run: echo "Login to docker hub successfully!"
